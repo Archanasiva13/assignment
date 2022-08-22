@@ -1,0 +1,28 @@
+ var input=inputfield("input","type","text","placeholder","Search Here","id","channels","id","retrievesub");
+ var b1=linebreak("br");
+ var retrievesub=inputfield("input","type","text","placeholder","Search Here","id","retrievesub");
+ var b2=linebreak("br");
+ var retrievesub=inputfield("input","type","text","placeholder","Search Here","id","retrievesub");
+ var b2=linebreak("br");
+
+ function inputfield(tagname,attrname,attrvalue,attrname1,attrvalue1,attrname2,attrvalue2,attrname3,attrvalue3){
+ var inputname=document.createElement(tagname);
+ inputname.setAttribute(attrname,attrvalue);
+ inputname.setAttribute(attrname1,attrvalue1);
+ inputname.setAttribute(attrname2,attrvalue2);
+ inputname.setAttribute(attrname3,attrvalue3);
+ return inputfield;
+  }
+
+ function buttonbox(tagname,attrname,attrvalue,attrname1,attrvalue1,addEventListener){
+ var buttonname=document.createElement(tagname);
+ buttonname.setAttribute(attrname,attrvalue);
+ buttonname.setAttribute(attrname1,attrvalue1);
+ buttonname.addEventListener(atr);
+ return buttonname;
+ }
+
+ function linebreak(breaker){
+ var b1=document.createElement(breaker);
+ return b1;
+ }
